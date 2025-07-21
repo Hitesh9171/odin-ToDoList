@@ -33,7 +33,7 @@ function createHeading() {
     searchicon.src=search;
     const searchtext=document.createElement("input");
     searchtext.type="text";
-    searchtext.placeholder="Search";
+    searchtext.placeholder="Search(Under Construction Will do nothing for now)";
     searchwrapper.appendChild(searchicon);
     searchwrapper.appendChild(searchtext);
 
@@ -48,11 +48,9 @@ function createTasks() {
     const taskheading=document.createElement("h3");
     taskheading.textContent="TASKS";
     taskswrapper.appendChild(taskheading);
-    const upcomingbtn=taskswrapper.appendChild(createItem(upcoming,"Upcoming"));
+    const upcomingbtn=taskswrapper.appendChild(createItem(upcoming,"Upcoming(Under Development)"));
     const todaybtn=taskswrapper.appendChild(createItem(today,"Today"));
     const calendarbtn=taskswrapper.appendChild(createItem(calendar,"Calendar"));
-    const sitckyWallbtn=taskswrapper.appendChild(createItem(stickywall,"Sticky Wall"));
-
     //loading calendarview
     calendarbtn.addEventListener('click',loadCalendar);
     todaybtn.addEventListener('click',loadToday);
@@ -64,7 +62,7 @@ function createList(){
     const listwrapper=document.createElement("div");
     listwrapper.classList.add("list-wrapper");
     const listheading=document.createElement("h3");
-    listheading.textContent="LISTS";
+    listheading.textContent="LISTS(Under development)";
     listwrapper.appendChild(listheading);
     const listitems=document.createElement("div");
     listitems.classList.add("list-items");

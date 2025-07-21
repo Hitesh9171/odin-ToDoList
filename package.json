@@ -5,7 +5,7 @@
   "description": "",
   "author": "",
   "license": "ISC",
-  "homepage": "https://yourusername.github.io/repo-name",
+  "homepage": "https://Hitesh9171.github.io/odin-ToDoList",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "webpack serve --open",
